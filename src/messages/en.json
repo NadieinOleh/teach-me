@@ -1,0 +1,9 @@
+{
+  "HomePage": {
+    "hello": "Hello pupils!",
+    "description": "Welcome to the 'Teach Me' app!",
+    "text": "In this application you can learn poems in different languages.",
+    "name": "Your name",
+    "login": "Login"
+  }
+}
