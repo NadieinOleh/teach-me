@@ -4,6 +4,8 @@
     "description": "Willkommen bei der 'Teach Me' App!",
     "text": "In dieser Anwendung können Sie Gedichte in verschiedenen Sprachen lernen.",
     "name": "Ihr Name",
-    "login": "Anmelden"
+    "login": "Anmelden",
+    "instruction": "Anweisung",
+    "class": "Klasse"
   }
 }

@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { ModeToggle } from "./components/ModeToggle/ModeToggle";
 import { LanguagesToggle } from "./components/LanguagesToggle/LanguagesToggle";
 import { LoginForm } from "./login/components/LoginForm";
+import { Instruction } from "./components/Tooltip/Tooltip";
 
 export default function Home() {
   const t = useTranslations("HomePage");
@@ -13,6 +14,7 @@ export default function Home() {
       <div className="mb-6 flex w-full items-center justify-center gap-4">
         <ModeToggle />
         <LanguagesToggle />
+        <Instruction />
       </div>
 
       <div className="text-center mb-2">
