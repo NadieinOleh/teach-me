@@ -8,5 +8,16 @@
         "instruction": "Instruction",
     "class": "Class"
 
-  }
+  },
+  "Alert": {
+  "successTitle": "Success!",
+  "successDescription": "You have successfully logged in.",
+  "warningTitle": "Please enter your name and select a class.",
+  "errorTitle": "Error!",
+  "errorDescription": "The request could not be processed. Please try again.",
+  "errorListItem1": "Check that the name is entered correctly.",
+  "errorListItem2": "Make sure a class is selected.",
+  "errorListItem3": "If the problem persists, contact the administrator."
+}
+
 }

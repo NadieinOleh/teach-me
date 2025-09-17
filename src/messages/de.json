@@ -7,5 +7,16 @@
     "login": "Anmelden",
     "instruction": "Anweisung",
     "class": "Klasse"
-  }
+  },
+  "Alert": {
+  "successTitle": "Erfolg!",
+  "successDescription": "Sie haben sich erfolgreich angemeldet.",
+  "warningTitle": "Bitte geben Sie Ihren Namen ein und wählen Sie eine Klasse.",
+  "errorTitle": "Fehler!",
+  "errorDescription": "Die Anfrage konnte nicht bearbeitet werden. Bitte versuchen Sie es erneut.",
+  "errorListItem1": "Überprüfen Sie, ob der Name korrekt eingegeben wurde.",
+  "errorListItem2": "Stellen Sie sicher, dass eine Klasse ausgewählt ist.",
+  "errorListItem3": "Wenn das Problem weiterhin besteht, wenden Sie sich an den Administrator."
+}
+
 }
