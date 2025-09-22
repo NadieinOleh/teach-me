@@ -1,21 +1,15 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { ModeToggle } from "./components/ModeToggle/ModeToggle";
-import { LanguagesToggle } from "./components/LanguagesToggle/LanguagesToggle";
 import { LoginForm } from "./login/components/LoginForm";
-import { Instruction } from "./components/Tooltip/Tooltip";
+import { Navigation } from "./components/Navigation/Navigation";
 
 export default function Home() {
   const t = useTranslations("HomePage");
 
   return (
     <div className="flex min-h-screen flex-col  justify-center p-8">
-      <div className="mb-6 flex w-full items-center justify-center gap-4">
-        <ModeToggle />
-        <LanguagesToggle />
-        <Instruction />
-      </div>
+   <Navigation />
 
       <div className="text-center mb-2">
         <h1 className="text-xl font-bold mb-2">{t("hello")}</h1>
